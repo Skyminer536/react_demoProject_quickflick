@@ -1,0 +1,118 @@
+/* --- Reset --- */
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.videoContainer {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0.5em;
+
+}
+
+.header {
+
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em;
+    }
+    background-color: darkgrey;
+
+    div img {
+        width: 10%;
+    }
+
+    nav {
+        background-color:#2e2d2d;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 1em;
+
+    }
+
+    nav ul li {
+        padding: 0em 1em 0em 1em;
+        text-decoration: none;
+        color: white;
+
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+
+    .login {
+        background-color: #2e2d2d;
+        color: white;
+        padding: 1em;
+
+    }
+
+    .login:hover {
+        color: gold;
+
+    }
+}
+
+.popularVideoDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.featuredVideo {
+    width: 40%;
+}
+
+.aboutDiv {
+    padding: 1em;
+}
+
+footer {
+    background-color:darkgray;
+    padding: 3em;
+    margin: 4em 0em 0em 0em;
+
+    img {
+        width: 10%;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0em;
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: white;
+
+        :hover {
+            color: gold;
+        }
+
+
+    }
+}
+
